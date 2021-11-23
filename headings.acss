@@ -1,0 +1,9 @@
+.gl__headings{
+  margin-top: 25px;
+  margin-bottom: 18px;
+}
+
+.gl__heading{
+  font-size: 18px;
+  font-weight: 700;
+}

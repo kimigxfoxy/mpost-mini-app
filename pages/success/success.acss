@@ -1,0 +1,33 @@
+@import "../buttons.acss";
+@import "../form.acss";
+
+
+.successs{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.successs-top{
+  margin-top: 15vh;
+}
+.success-image{
+  width: 120px;
+  height: 120px;
+  display: flex;
+  margin: 0 auto;
+}
+.successs-titles{
+  margin-top: 15px;
+  text-align: center;
+}
+
+.successs-h1{
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+}
+
+.successs-h2{
+  font-size: 14px;
+  color: rgba(0,0,0,0.2)
+}

@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",  
+    "pages/otp/otp",
+    "pages/pin/pin",
+    "pages/personal/personal",
+	"pages/success/success",
+	"pages/confirmed/confirmed",
+    "pages/activate/activate",
+	"pages/pending/pending",
+	"pages/home/home"
+ ]
+}

@@ -1,0 +1,22 @@
+<view class="confirmed">
+  <view class="content-container">
+    <view class="content-top">
+      <view class="confirmed-top">
+        <view class="card mpesa-card">
+          <view class="card-title">M-PESA Payment</view>
+          <view class="card-content">
+            <view class="card-top">
+              <text class="card-desc">Your amount <text class="bold marin-inline">Ksh 300</text> to MPOST paid by +254711305097.</text>
+            </view>
+            <view class="card-bottom border-top-dotted">
+              <view class="alert success-alert">Payment Successful!</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="content-bottom">
+      <button type="primary" class="btn btn-primary">FINISH</button>
+    </view>
+  </view>
+</view>

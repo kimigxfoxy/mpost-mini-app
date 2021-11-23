@@ -1,0 +1,78 @@
+<view class="personal-details">
+  <view class="content-container">
+    <view class="content-top">
+      <view class="gl__headings">
+        <text class="gl__heading">Enter your personal details</text>
+      </view>
+      <view class="form block">
+        <view class="inputlabel">
+          <view class="label">
+            <view class="label">First Name</view>
+          </view>
+          <view class="form__input">
+            <input onInput="onInputFirstName" class="input block" value="{{firstName}}" />
+          </view>
+          <view class="label" style="color:red"> {{errorValidateFirstNameMessage}} </view>
+        </view>
+        <view class="inputlabel">
+          <view class="label">
+            <view class="label">Last Name</view>
+          </view>
+          <view class="form__input">
+            <input onInput="onInputLastName" class="input block" value="{{lastName}}"/>
+          </view>
+          <view class="label" style="color:red"> {{errorValidateLastNameMessage}} </view>
+        </view>
+        <view class="inputlabel">
+          <view class="label">
+            <view class="label">ID Number</view>
+          </view>
+          <view class="form__input">
+            <input onInput="onInputID" class="input block" value="{{id}}"/>
+          </view>
+          <view class="label" style="color:red"> {{errorValidateIdMessage}} </view>
+        </view>
+        <view class="inputlabel">
+          <view class="label">
+            <view class="label">Date of Birth</view>
+          </view>
+          <view class="form__input">
+            <input onInput="onInput" class="input block" value="{{dateOfBirth}}" onFocus="datePickerYMDHMS"/>
+          </view>
+          <view class="label" style="color:red"> {{errorValidateDateOfBirthMessage}} </view>
+        </view>
+
+        <view class="inputlabel">
+          <view class="label">
+            <view class="label">Postal code</view>
+          </view>
+          <view class="form__input">
+            <input onInput="onInputPostalCode" value="{{postalCode}}" class="input block" />
+          </view>
+          <view class="label" style="color:red"> {{errorValidatePostalCodeMessage}} </view>
+        </view>
+
+        <view class="inputlabel">
+          <view class="label">
+            <view class="label">Email (Optional)</view>
+          </view>
+          <view class="form__input">
+            <input onInput="onInputEmail" value="{{email}}" class="input block" />
+          </view>
+          <view class="label" style="color:red"> {{errorValidateEmailMessage}} </view>
+        </view>
+
+        <view class="section section_gap">
+          <radio-group class="radio-group" onChange="radioChange">
+            <label class="radio" a:for="{{items}}" style="margin-right:5px">
+              <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+            </label>
+          </radio-group>
+        </view>
+      </view>
+    </view>
+    <view class="content-bottom" style="margin-top:5px">
+        <button type="primary" class="btn btn-primary" onTap="submitRegistration" disabled="{{isSubmitButtonEnabled}}">SUBMIT</button>
+    </view>
+  </view>
+</view>

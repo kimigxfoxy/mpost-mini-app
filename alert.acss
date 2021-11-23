@@ -1,0 +1,15 @@
+.alert{
+  border: 0.5px solid #1774A7;
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #1774A7;
+  border-radius: 6px;
+}
+
+.success-alert{
+  color: #18B284;
+  border-color: #18B284;
+  border-width: 1px;
+}

@@ -1,0 +1,44 @@
+<view class="home">
+  <view class="content-container">
+    <view class="content-top">
+      <view class="home-top">
+        <view class="home-titles">
+          <text class="home-h1">Welcome, <text>{{names}}</text></text>
+          <text class="home-h2">{{todayDate}}</text>
+        </view>
+        <view class="card price-card">
+          <view class="card-title">Your details</view>
+          <view class="card-content">
+            <view class="card-top">
+              <view class="card-grid">
+                <view class="card-meta total-meta">
+                  <text class="card-label">City</text>
+                  <text class="card-h2 block bold">{{city}}</text>
+                </view>
+                <view class="card-meta">
+                  <text class="card-label">Area</text>
+                  <text class="card-h2 block bold">{{city}}</text>
+                </view>
+              </view>
+              <view class="card-grid">
+                <view class="card-meta total-meta">
+                  <text class="card-label">Postal Code</text>
+                  <text class="card-h2 block bold">{{postalCode}}</text>
+                </view>
+                <view class="card-meta">
+                  <text class="card-label">Code Status</text>
+                  <text class="card-h2 block bold">{{active}}</text>
+                </view>
+              </view>
+            </view>
+            <view class="card-bottom border-top-dotted">
+              <view class="alert normal-alert">
+              <text>{{expiry}}</text>
+            </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

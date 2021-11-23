@@ -1,0 +1,13 @@
+@import "../../form.acss";
+@import "../../buttons.acss";
+@import "../../card.acss";
+@import "../../alert.acss";
+
+.confirmed{
+  margin-top: 20px;
+}
+
+.marin-inline{
+  display: inline-block;
+  margin: 0 5px;
+}

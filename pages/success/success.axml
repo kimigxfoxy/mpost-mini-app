@@ -1,0 +1,18 @@
+<view class="successs">
+  <view class="content-container">
+    <view class="content-top">
+      <view class="successs-top">
+        <view>
+          <image src={{successImg}} class="success-image" />
+        </view>
+        <view class="successs-titles">
+          <text class="successs-h1">Successfully registered</text>
+          <text class="successs-h2">You have successfuly registered to MPOST</text>
+        </view>
+      </view>
+    </view>
+    <view class="content-bottom">
+        <button type="primary" class="btn btn-primary" onTap="continueButton">CONTINUE</button>
+    </view>
+  </view>
+</view>

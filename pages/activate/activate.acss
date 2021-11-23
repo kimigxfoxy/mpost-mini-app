@@ -1,0 +1,43 @@
+
+@import "../../form.acss";
+@import "../../buttons.acss";
+@import "../../card.acss";
+
+
+.account-activate{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.activate-top{
+  margin-top: 20px;
+}
+
+.activate-titles{
+  margin-bottom: 20px;
+}
+
+.activate-h1{
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+}
+
+.activate-h2{
+  font-size: 12px;
+  color: rgba(0,0,0,0.4);
+}
+
+.price-card{
+  margin-bottom: 30px;
+}
+
+.duration-meta{
+  color: #1774A7;
+  background: #D9EEFA;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+

@@ -1,0 +1,19 @@
+<view class="pending">
+  <view class="content-container">
+    <view class="content-top">
+      <view class="pending-top">
+        <view class="card mpesa-card">
+          <view class="card-title">M-PESA Payment</view>
+          <view class="card-content">
+            <view class="card-top">
+              <text class="card-desc">Your amount Ksh 300 to MPOST paid by <text class="bold marin-inline">{{mobileNumber}} </text> is pending confirmation. Please click refresh after you have successfuly paid</text>
+            </view>
+            <view class="card-bottom border-top-dotted">
+              <view class="alert normal-alert" onTap="onRefresh">Refresh</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

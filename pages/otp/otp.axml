@@ -1,0 +1,36 @@
+<view class="otp">
+  <view class="content-container">
+    <view class="content-top">
+      <view class="gl__headings">
+        <text class="gl__heading">Enter your phone number</text>
+      </view>
+      <view class="form">
+        <view class="code">
+          <view class="label">
+            <view class="label">Code</view>
+          </view>
+          <view class="code-item">
+            <view class="code-image">
+              <image src={{flagke}} class="flag" />
+            </view>
+            <view class="code-text">
+              <text>+254</text>
+            </view>
+          </view>
+        </view>
+        <view class="inputlabel">
+          <view class="label">
+            <view class="label">Mobile Number</view>
+          </view>
+          <view class="form__input">
+            <input onInput="onInput" type="number" class="input" />
+          </view>
+          <view class="label" style="color:red"> {{errorValidatePhoneNumberMessage}} </view>
+        </view>
+      </view>
+    </view>
+    <view class="content-bottom">
+        <button type="primary" class="btn btn-primary" onTap="sendOTP" disabled="{{buttonDisable}}">GET PIN</button>
+    </view>
+  </view>
+</view>

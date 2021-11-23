@@ -1,0 +1,48 @@
+<view class="account-activate">
+  <view class="content-container">
+    <view class="content-top">
+      <view class="activate-top">
+        <view class="activate-titles">
+          <text class="activate-h1">Activate your virtual postal box</text>
+          <text class="activate-h2">Activate your postal box by paying the amount below</text>
+        </view>
+        <view class="card price-card">
+          <view class="card-content">
+            <view class="card-grid">
+              <view class="card-meta total-meta">
+                <text class="card-label">Total Amount</text>
+                <text class="card-h2 block bold">Ksh 300</text>
+              </view>
+              <view class="card-meta duration-meta">
+                <text>Yearly payment</text>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="card mpesa-card">
+          <view class="card-title">Pay now via M-PESA</view>
+          <view class="card-content">
+            <view class="card-top">
+              <text class="card-desc">You will receive an M-PESA push to the following Number: <text class="bold">{{mobileNumber}}</text></text>
+            </view>
+            <!-- <view class="card-bottom border-top-dotted">
+              <view class="form-block">
+                <view class="inputlabel no-magin">
+                <view class="label">
+                    <view class="label">Change number</view>
+                  </view>
+                  <view class="form__input">
+                    <input onInput="onInput" class="input block" />
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view> -->
+        </view>
+      </view>
+    </view>
+    <view class="content-bottom">
+        <button type="primary" onTap="onInitiatePayment" class="btn btn-primary">INITIATE PAYMENT</button>
+    </view>
+  </view>
+</view>

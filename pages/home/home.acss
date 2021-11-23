@@ -1,0 +1,36 @@
+
+@import "../../form.acss";
+@import "../../card.acss";
+@import "../../alert.acss";
+
+.home{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.home-top{
+  margin-top: 20px;
+}
+
+.home-titles{
+  margin-bottom: 20px;
+}
+
+.home-h1{
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+}
+
+.home-h2{
+  font-size: 12px;
+  color: rgba(0,0,0,0.4);
+}
+.card-grid{
+  margin-bottom: 20px;
+}
+
+.card-content{
+  padding-left: 30px;
+  padding-right: 30px;
+}

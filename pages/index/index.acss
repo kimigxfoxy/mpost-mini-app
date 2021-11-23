@@ -1,0 +1,43 @@
+@import "../buttons.acss";
+
+page{
+  background: #1B3442;
+}
+
+.home{
+  position: relative;
+  height: 100vh;
+  
+}
+
+.home__content{
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 0 20px;
+  bottom: 20px;
+  z-index: 999;
+  text-align: center
+}
+
+.home__headings{
+  margin-bottom: 4px;
+}
+
+.home__heading{
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.home__intro{
+  margin-bottom: 18px;
+}
+
+.home__desc{
+  font-size: 15px;
+  color: #fff;
+}
+
+

@@ -1,0 +1,36 @@
+<view class="pin">
+  <view class="content-container">
+    <view class="content-top">
+      <view class="pin-top">
+        <view class="pin-phone">
+            <view class="message-img">
+              <image src={{mgsImg}} class="message-img" />
+            </view>
+            <view class="phone-number">
+              <view class="phone-text">
+                <text class="text-normal">Code Sent to</text>
+                <text class="text-normal">+254-711305097</text>
+              </view>
+              <view class="phone-link">
+                <text onTap="editNumber" class="edit-link">Edit Number</text>
+              </view>
+            </view>
+        </view>
+      </view>
+      <view class="form-block">
+        <view class="inputlabel no-magin">
+         <view class="label">
+            <view class="label">Enter code</view>
+          </view>
+          <view class="form__input">
+            <input onInput="onInput" class="input block" />
+          </view>
+          <view class="label" style="color:red"> {{errorValidateOTPMessage}} </view>
+        </view>
+      </view>
+    </view>
+    <view class="content-bottom">
+        <button type="primary" class="btn btn-primary" onTap="verifyOTP" disabled="{{buttonDisable}}">SUBMIT</button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+@import "../../form.acss";
+@import "../../buttons.acss";
+@import "../../card.acss";
+@import "../../alert.acss";
+
+.pending-top{
+  margin-top: 50px;
+}
+
+.marin-inline{
+  display: inline-block;
+  margin: 0 5px;
+}

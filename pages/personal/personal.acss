@@ -1,0 +1,8 @@
+
+@import "../headings.acss";
+@import "../form.acss";
+@import "../buttons.acss";
+
+.personal-details{
+  width: 100%;
+}

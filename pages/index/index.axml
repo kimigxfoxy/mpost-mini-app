@@ -1,0 +1,18 @@
+<view class="home">
+  <view class="home__container">
+    <view class="home__bgk">
+      <image src="images/splash_banner.jpg" style="object-fit:cover; object-position: center; height: 100vh; width: 100vw" />
+    </view>
+    <view class="home__content">
+        <view class="home__headings">
+          <text class="home__heading">Posta Mkononi</text>
+        </view>
+        <view class="home__intro">
+          <text class="home__desc">Enjoy Postal Services at home, in the office, or on the go through your mobile phone.</text>
+        </view>
+        <view class="home__btn">
+          <button type="primary" class="btn btn-primary" onTap="nativageOtp">START USING MPOST</button>
+        </view>
+    </view>
+  </view>
+</view>
