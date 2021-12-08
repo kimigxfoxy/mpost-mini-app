@@ -29,7 +29,7 @@
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 5px;
-  color:#65676b;
+  color:#212121;
 }
 
 .input,

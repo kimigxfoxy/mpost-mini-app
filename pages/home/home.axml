@@ -6,6 +6,24 @@
           <text class="home-h1">Welcome, <text>{{names}}</text></text>
           <text class="home-h2">{{todayDate}}</text>
         </view>
+        <view class="card price-card bg-lightblue my-15 py-15">
+          <view class="card-content">
+            <view class="card-package">
+              <view class="card-package">
+                 <image src={{packageIcon}} class="package-image" />
+              </view>
+              <view class="card-headind">
+                <text class="card-package-h1">Tap a Delivery</text>
+              </view>
+            </view>
+            <view class="card-package-conent">
+              <text class="card-package-h2">Pick a delivery package</text>
+              <button class="package-link">10 Deliveries for Ksh 1000</button>
+              <button class="package-link">25 Deliveries for Ksh 2000</button>
+              <button class="package-link">40 Deliveries for Ksh 4000</button>
+            </view>
+          </view>
+        </view>
         <view class="card price-card">
           <view class="card-title">Your details</view>
           <view class="card-content">

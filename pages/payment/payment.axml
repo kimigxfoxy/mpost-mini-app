@@ -1,0 +1,22 @@
+<view class="payment-details">
+  <view class="content-container">
+    <view class="content-top">
+      <view class="gl__headings">
+        <text class="gl__heading">Selected 10 Packages</text>
+      </view>
+      <view class="form block">
+        <view class="inputlabel">
+          <view class="label">
+            <view class="label">Amount(Ksh)</view>
+          </view>
+          <view class="form__input">
+            <input onInput="onInput" value="1000" class="input block" disabled />
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="content-bottom">
+        <button type="primary" class="btn btn-primary">Make Payment</button>
+    </view>
+  </view>
+</view>

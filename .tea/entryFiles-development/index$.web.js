@@ -10,3 +10,4 @@ require('../../pages/confirmed/confirmed?hash=32d7d2807ed4e666ef03b4b3fe8c38ecf2
 require('../../pages/activate/activate?hash=32d7d2807ed4e666ef03b4b3fe8c38ecf2e34e68');
 require('../../pages/pending/pending?hash=32d7d2807ed4e666ef03b4b3fe8c38ecf2e34e68');
 require('../../pages/home/home?hash=32d7d2807ed4e666ef03b4b3fe8c38ecf2e34e68');
+require('../../pages/payment/payment?hash=32d7d2807ed4e666ef03b4b3fe8c38ecf2e34e68');

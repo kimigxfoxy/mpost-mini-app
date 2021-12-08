@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/index/index",  
+  "pages/index/index",  
     "pages/otp/otp",
     "pages/pin/pin",
     "pages/personal/personal",
@@ -8,6 +8,7 @@
 	"pages/confirmed/confirmed",
     "pages/activate/activate",
 	"pages/pending/pending",
-	"pages/home/home"
- ]
+	"pages/home/home",
+    "pages/payment/payment"
+    ]
 }

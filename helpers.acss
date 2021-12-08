@@ -1,0 +1,18 @@
+.mx-0{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.my-10{
+  margin: 10px 0;
+}
+.my-15{
+  margin: 15px 0;
+}
+
+.py-15{
+  padding: 15px 0;
+}
+
+.bg-lightblue{
+  background: #70C6F4;
+}
