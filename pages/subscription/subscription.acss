@@ -1,0 +1,98 @@
+
+@import "../../form.acss";
+@import "../../card.acss";
+@import "../../helpers.acss";
+@import "../../alert.acss";
+
+.home{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.home-top{
+  margin-top: 20px;
+}
+
+.home-titles{
+  margin-bottom: 20px;
+}
+
+.home-h1{
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+}
+
+.home-h2{
+  font-size: 12px;
+  color: rgba(0,0,0,0.4);
+}
+.card-grid{
+  margin-bottom: 20px;
+}
+
+.card-package{
+  display: flex;
+  align-items: center;
+}
+
+.package-image{
+  width: 40px;
+  height: 30px;
+}
+
+.card-package-conent{
+  margin-top: 30px
+}
+
+.card-package-h1,
+.card-package-h2{
+  color: #fff;
+}
+
+.card-package-h1{
+  font-size: 0.35rem;
+  margin-left: 20px;
+  font-weight: 800;
+}
+
+.card-package-h2{
+  display: block;
+  font-size: 0.32rem;
+  margin-bottom: 15px;
+}
+
+
+.package-link{
+  display: block;
+  background: #fff;
+  color: #187BB2;
+  line-height: 47px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.package-link:last-child{
+  margin-bottom: 0;
+}
+
+.card-subscibe{
+  border: 1.2px dashed #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.subscibe-text{
+  color: #fff;
+  font-size: 14px;
+}
+
+.subscibe-bold{
+  display: inline-block;
+  margin: 0 6px;
+  font-weight: 800;
+}

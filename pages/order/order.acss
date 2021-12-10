@@ -1,0 +1,30 @@
+
+@import "../../headings.acss";
+@import "../../form.acss";
+@import "../../buttons.acss";
+@import "../../helpers.acss";
+
+.order-details{
+  width: 100%;
+}
+
+
+.order-specs{
+  display: flex;
+  align-items: center;
+  border: 1px dashed #78C4ED;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.order-about-image{
+  width: 20px;
+  height: 20px;
+  margin-right: 18px;
+}
+
+
+.order-text{
+  font-size: 13px;
+  color: #1774A7;
+}

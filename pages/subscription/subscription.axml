@@ -3,8 +3,8 @@
     <view class="content-top">
       <view class="home-top">
         <view class="home-titles">
-          <text class="home-h1">Welcome, <text>{{names}}</text></text>
-          <text class="home-h2">{{todayDate}}</text>
+          <text class="home-h1">Welcome, <text>Dennis Wesonga</text></text>
+          <text class="home-h2">16 Nov 2021</text>
         </view>
         <view class="card price-card bg-lightblue my-15 py-15">
           <view class="card-content">
@@ -17,10 +17,10 @@
               </view>
             </view>
             <view class="card-package-conent">
-              <text class="card-package-h2">Pick a delivery package</text>
-              <button class="package-link" onTap="payPackageDeliveries10">10 Deliveries for Ksh 1000</button>
-              <button class="package-link" onTap="payPackageDeliveries25">25 Deliveries for Ksh 2000</button>
-              <button class="package-link" onTap="payPackageDeliveries40">40 Deliveries for Ksh 4000</button>
+              <view class="card-subscibe">
+                <text class="subscibe-text">You current have <text class="subscibe-bold">9/10</text> unused deliveries.</text>
+              </view>
+              <button class="package-link">PLACE AN ORDER</button>
             </view>
           </view>
         </view>
@@ -31,28 +31,23 @@
               <view class="card-grid">
                 <view class="card-meta total-meta">
                   <text class="card-label">City</text>
-                  <text class="card-h2 block bold">{{city}}</text>
+                  <text class="card-h2 block bold">Nairobi</text>
                 </view>
                 <view class="card-meta">
                   <text class="card-label">Area</text>
-                  <text class="card-h2 block bold">{{city}}</text>
+                  <text class="card-h2 block bold">Westlands</text>
                 </view>
               </view>
               <view class="card-grid">
                 <view class="card-meta total-meta">
                   <text class="card-label">Postal Code</text>
-                  <text class="card-h2 block bold">{{postalCode}}</text>
+                  <text class="card-h2 block bold">00199</text>
                 </view>
                 <view class="card-meta">
                   <text class="card-label">Code Status</text>
-                  <text class="card-h2 block bold">{{active}}</text>
+                  <text class="card-h2 block bold">Active</text>
                 </view>
               </view>
-            </view>
-            <view class="card-bottom border-top-dotted">
-              <view class="alert normal-alert">
-              <text>{{expiry}}</text>
-            </view>
             </view>
           </view>
         </view>

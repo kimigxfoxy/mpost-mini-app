@@ -25,5 +25,17 @@ Page({
         todayDate: new Date().toISOString().split('T')[0]
       })
   },
+
+  payPackageDeliveries10(){
+    my.navigateTo({ url: '../payment/payment?mobileNumber=254713044953&package=10' });
+  },
+
+  payPackageDeliveries25(){
+    my.navigateTo({ url: '../payment/payment?mobileNumber=254713044953&package=25' });
+  },
+
+  payPackageDeliveries40(){
+    my.navigateTo({ url: '../payment/payment?mobileNumber=254713044953&package=40' });
+  }
   
 })

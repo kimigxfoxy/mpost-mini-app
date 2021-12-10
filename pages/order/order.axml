@@ -1,0 +1,54 @@
+<view class="order-details">
+  <view class="content-container">
+    <view class="content-top">
+      <view class="gl__headings">
+        <text class="gl__heading">Delivery details</text>
+      </view>
+      <view class="form block">
+        <view class="inputlabel mx-0">
+          <view class="label">
+            <view class="label">Where from?</view>
+          </view>
+          <view class="form__input">
+            <input onInput="onInput" class="input block" />
+          </view>
+        </view>
+        <view class="inputlabel mx-0">
+          <view class="label">
+            <view class="label">Where to?</view>
+          </view>
+          <view class="form__input">
+            <input onInput="onInput" class="input block" />
+          </view>
+        </view>
+        <view class="inputlabel mx-0">
+          <view class="label">
+            <view class="label">Schedule a time</view>
+          </view>
+          <view class="form__input">
+            <input onInput="onInput" class="input block" />
+          </view>
+        </view>
+        <view class="inputlabel mx-0">
+          <view class="label">
+            <view class="label">Add your receipt’s phone number</view>
+          </view>
+          <view class="form__input">
+            <input onInput="onInput" class="input block" />
+          </view>
+        </view>
+        <view class="order-specs">
+          <view class="order-about">
+            <image src={{aboutIcon}} class="order-about-image" />
+          </view>
+          <view class="oder-content">
+            <text class="order-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor, cursus diam a sed nibh aliquet non tincidunt.</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="content-bottom">
+        <button type="primary" class="btn btn-primary">Confrim order</button>
+    </view>
+  </view>
+</view>
